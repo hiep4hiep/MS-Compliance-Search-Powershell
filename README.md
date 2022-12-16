@@ -20,7 +20,9 @@ This command will ask for username and password, but the username is not importa
 
 Example:
 ```
-New-ComplianceSearch -name "suspicious emails" -ExchangeLocation all -ContentMatchQuery 'subject:"suspicious"'                                                                                                                                                       Name              RunBy JobEndTime Status                                                                                                   ----              ----- ---------- ------                                                                                                   suspicious emails                  NotStarted
+New-ComplianceSearch -name "suspicious emails" -ExchangeLocation all -ContentMatchQuery 'subject:"suspicious"' 
+
+Name              RunBy JobEndTime Status                                                                                                   ----              ----- ---------- ------                                                                                                   suspicious emails                  NotStarted
 ```
 
 ### Verify whether it is there
