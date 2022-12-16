@@ -22,7 +22,10 @@ Example:
 ```
 New-ComplianceSearch -name "suspicious emails" -ExchangeLocation all -ContentMatchQuery 'subject:"suspicious"' 
 
-Name              RunBy JobEndTime Status                                                                                                   ----              ----- ---------- ------                                                                                                   suspicious emails                  NotStarted
+Name              RunBy JobEndTime Status                                                                                                   
+----              ----- ---------- ------                                                                                                   
+suspicious emails                  NotStarted
+
 ```
 
 ### Verify whether it is there
