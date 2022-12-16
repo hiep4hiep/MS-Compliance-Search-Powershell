@@ -40,7 +40,7 @@ Name              RunBy JobEndTime           Status
 example1          User1 6/12/2022 1:14:00 am Completed
 test02                                       NotStarted
 test002                                      NotStarted
-**suspicious emails                            NotStarted**
+suspicious emails                            NotStarted
 ```
 
 ### Disconnect the session
