@@ -7,6 +7,7 @@
 
 ### Connect to Sec & Compliance Powershell
 ```Connect-IPPSSession -CertificateFilePath "C:\cert.pfx" -CertificatePassword (Get-Credential).password -AppID "xxxxxxx-xxx-xxxx-xxxx-xxxxxxxxx" -Organization “something.com”```
+
 This command will ask for username and password, but the username is not important, you can put anything. Password is the private key password to decrypt the certificate.
 
 ### Create compliance search
